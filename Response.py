@@ -5,7 +5,7 @@ class RunBot:
     def __init__(self, first_name):
         self.first_name = first_name
         self.API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
-        self.headers = {"Authorization": "Bearer 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"}
+        self.headers = {"Authorization": "Bearer "YOUR_BEARER_TOKEN"}
         self.load_prompt()
 
     def load_prompt(self):
