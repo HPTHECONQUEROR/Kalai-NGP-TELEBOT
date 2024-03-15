@@ -1,12 +1,10 @@
-# main.py
 import csv
 import threading
-
 import telebot
-from telebot import types  # Importing types module to work with inline keyboards
+from telebot import types  
 from Response import RunBot
 
-BOT_TOKEN = "6510709619:AAErguIxDsdC3nzpbUuTcI5bfZwED_iWGsE"
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 bot = telebot.TeleBot(BOT_TOKEN)
 user_instances = {}
 lock = threading.Lock()
